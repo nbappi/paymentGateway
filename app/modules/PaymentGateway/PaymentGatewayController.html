@@ -1,6 +1,6 @@
 Payment gateway
 
-<form id="payment_gw" name="payment_gw" method="POST" action="https://sandbox.sslcommerz.com/gwprocess/v3/process.php">
+<form id="payment_gw" name="payment_gw" >
     <input type="text" name="total_amount" value="1150.00" />
     <input type="text" name="store_id" value="testbox" />
     <input type="text" name="tran_id" value="5808500dc32f4" />
@@ -22,7 +22,7 @@ Payment gateway
     <input type="hidden" name="cus_fax" value="01711111111">
 
     <!-- Shipping Information !-->
-    
+
     <input type="hidden" name="ship_name" value="ABC XYZ">
     <input type="hidden" name="ship_add1" value="Address Line One"> 
     <input type="hidden" name="ship_add2" value="Address Line Two">
@@ -52,3 +52,6 @@ Payment gateway
     <!-- SUBMIT REQUEST  !-->
     <input type="submit" name="submit" value="Pay Now" ng-click="addItem()" />
 </form> 
+
+
+<div id="demo"></div>
