@@ -1,0 +1,15 @@
+{
+  "name": "todo",
+  "description": "\"My first angular js project\"",
+  "main": "app.js",
+  "authors": [
+    "Md. Nuruzzaman Bappi"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "moduleType": [],
+  "dependencies": {
+    "angular": "~1.5.8",
+    "angular-route": "~1.5.8"
+  }
+}

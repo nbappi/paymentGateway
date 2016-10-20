@@ -1,0 +1,27 @@
+{
+  "name": "payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbappi/paymentGateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbappi/paymentGateway/issues"
+  },
+  "homepage": "https://github.com/nbappi/paymentGateway#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.14.0"
+  }
+}
